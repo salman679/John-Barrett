@@ -1,5 +1,6 @@
 import { Award, BookOpen, Users, Target, CheckCircle2 } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
   title: "About John Barrett | Leadership Coach & Speaker",
@@ -81,9 +82,12 @@ export default function AboutPage() {
             </div>
             <div className="relative">
               <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
-                <img
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800"
+                <Image
+                  // src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800"
+                  src="/image.png"
                   alt="John Barrett"
+                  width={800}
+                  height={800}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -103,12 +107,13 @@ export default function AboutPage() {
             </h2>
             <div className="prose prose-lg max-w-none">
               <p className="text-navy-700 leading-relaxed mb-6">
-                For over two decades, I've had the privilege of walking
+                For over two decades, I&apos;ve had the privilege of walking
                 alongside leaders as they navigate their most challenging
                 moments and celebrate their greatest victories. My journey began
                 in corporate America, where I quickly learned that technical
-                skills alone don't make great leaders— it's the ability to
-                inspire, influence, and empower others that truly matters.
+                skills alone don&apos;t make great leaders— it&apos;s the
+                ability to inspire, influence, and empower others that truly
+                matters.
               </p>
               <p className="text-navy-700 leading-relaxed mb-6">
                 After experiencing my own leadership transformation through
@@ -127,8 +132,8 @@ export default function AboutPage() {
               <p className="text-navy-700 leading-relaxed">
                 My approach combines proven frameworks with personalized
                 strategies, always grounded in practical application. Because at
-                the end of the day, leadership isn't about theory— it's about
-                results, relationships, and lasting impact.
+                the end of the day, leadership isn&apos;t about theory it&apos;s
+                about results, relationships, and lasting impact.
               </p>
             </div>
           </div>
@@ -174,7 +179,7 @@ export default function AboutPage() {
         <div className="section-container">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-display font-bold text-navy-900 mb-6">
-              Let's Start Your Transformation
+              Let&apos;s Start Your Transformation
             </h2>
             <p className="text-xl text-navy-600 mb-8">
               Ready to take your leadership to the next level? Schedule a

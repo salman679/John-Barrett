@@ -4,88 +4,60 @@ import {
   CheckCircle2,
   ArrowRight,
   Clock,
-  Users,
   Target,
   TrendingUp,
+  Award,
 } from "lucide-react";
 
 export const metadata = {
-  title: "Leadership Coaching | John Barrett Leadership",
+  title: "Executive Coaching | John Barrett Leadership",
   description:
-    "Transform your leadership capabilities with personalized one-on-one coaching. Proven frameworks for emerging and established leaders.",
+    "Elite coaching for C-suite executives and senior leaders. Navigate complex challenges, drive transformation, and maximize your leadership impact.",
 };
 
 const benefits = [
-  "Develop authentic leadership presence",
-  "Master strategic decision-making",
-  "Build high-performing teams",
-  "Enhance communication effectiveness",
-  "Navigate complex challenges with confidence",
-  "Accelerate career progression",
-  "Create lasting organizational impact",
-  "Achieve sustainable work-life integration",
+  "Develop strategic vision and execution capabilities",
+  "Enhance executive presence and influence",
+  "Navigate organizational politics effectively",
+  "Build and lead high-performing executive teams",
+  "Drive successful organizational transformation",
+  "Achieve work-life integration at the executive level",
+  "Prepare for board-level responsibilities",
+  "Maximize your leadership legacy",
 ];
 
 const process = [
   {
     step: "01",
-    title: "Initial Assessment",
+    title: "Executive Assessment",
     description:
-      "Comprehensive leadership evaluation including 360-degree feedback, personality assessments, and goal-setting session.",
-    duration: "Week 1",
+      "Comprehensive 360-degree feedback, psychometric assessments, and stakeholder interviews to understand your current state and aspirations.",
+    duration: "Weeks 1-2",
   },
   {
     step: "02",
-    title: "Custom Development Plan",
+    title: "Strategic Development Plan",
     description:
-      "Personalized coaching roadmap aligned with your specific goals, challenges, and organizational context.",
-    duration: "Week 2",
+      "Custom roadmap aligned with your business objectives, personal goals, and organizational context.",
+    duration: "Week 3",
   },
   {
     step: "03",
-    title: "Bi-Weekly Coaching Sessions",
+    title: "Intensive Coaching Engagement",
     description:
-      "Deep-dive coaching conversations focused on real-world challenges, skill development, and accountability.",
-    duration: "Ongoing",
+      "Bi-weekly confidential sessions addressing real-time challenges, strategic decisions, and leadership development.",
+    duration: "Months 1-6",
   },
   {
     step: "04",
-    title: "Progress Reviews",
+    title: "Progress Reviews & Refinement",
     description:
-      "Regular milestone assessments to measure growth, celebrate wins, and adjust strategies as needed.",
-    duration: "Monthly",
+      "Quarterly stakeholder check-ins and plan adjustments to ensure continued relevance and impact.",
+    duration: "Ongoing",
   },
 ];
 
-const faqs = [
-  {
-    question: "How long does a typical coaching engagement last?",
-    answer:
-      "Most leadership coaching engagements run for 6-12 months, with bi-weekly sessions. This timeframe allows for meaningful transformation while maintaining momentum.",
-  },
-  {
-    question: "What's the time commitment?",
-    answer:
-      "Expect 1-2 hours per session, plus time for reflection and implementing strategies between sessions. Most clients dedicate 3-4 hours per month total.",
-  },
-  {
-    question: "Is coaching confidential?",
-    answer:
-      "Absolutely. All coaching conversations are completely confidential. I adhere to ICF (International Coach Federation) ethical guidelines.",
-  },
-  {
-    question: "How is coaching different from consulting?",
-    answer:
-      "Coaching focuses on developing YOU as a leader, not just solving problems. I help you discover your own solutions rather than prescribing answers.",
-  },
-  {
-    question: "What if I'm not sure coaching is right for me?",
-    answer:
-      "That's what the free strategy call is for! We'll discuss your goals and challenges to determine if coaching is the best fit for your needs.",
-  },
-];
-
-export default function LeadershipCoachingPage() {
+export default function ExecutiveCoachingPage() {
   return (
     <>
       {/* Hero Section */}
@@ -103,20 +75,19 @@ export default function LeadershipCoachingPage() {
         <div className="section-container relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full text-white text-sm font-medium mb-8">
-              <Target className="h-4 w-4 text-gold-400" />
-              One-on-One Leadership Development
+              <Award className="h-4 w-4 text-gold-400" />
+              Elite Executive Development
             </div>
 
             <h1 className="text-5xl md:text-6xl font-display font-bold text-white mb-6">
-              Leadership Coaching
+              Executive Coaching
             </h1>
             <p className="text-xl md:text-2xl text-navy-100 mb-12 leading-relaxed">
-              Unlock your full leadership potential through personalized
-              coaching designed to accelerate your growth and amplify your
-              impact.
+              Confidential, strategic coaching for C-suite executives navigating
+              complex challenges and driving organizational transformation.
             </p>
             <Link href="/contact" className="btn-gold text-lg px-10 py-5">
-              Book Your Free Strategy Call
+              Schedule Executive Consultation
               <ArrowRight className="ml-2 h-6 w-6" />
             </Link>
           </div>
@@ -129,32 +100,34 @@ export default function LeadershipCoachingPage() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-4xl font-display font-bold text-navy-900 mb-6">
-                Transform Your Leadership Journey
+                Leadership at the Highest Level
               </h2>
               <p className="text-lg text-navy-700 leading-relaxed mb-6">
-                Leadership coaching is a powerful partnership designed to help
-                you become the leader you&apos;re capable of being. Through
-                one-on-one sessions, we&apos;ll work together to identify your
-                strengths, overcome obstacles, and develop the skills needed to
-                lead with confidence and authenticity.
+                Executive coaching is a confidential partnership designed for
+                senior leaders who face unique challenges that can&apos;t be
+                discussed with colleagues or direct reports. As a trusted
+                advisor, I provide the strategic thinking partner you need to
+                navigate complexity, make critical decisions, and maximize your
+                impact.
               </p>
               <p className="text-lg text-navy-700 leading-relaxed mb-6">
-                Whether you&apos;re stepping into your first leadership role or
-                navigating C-suite challenges, this personalized approach
-                ensures you get exactly what you need to succeed.
+                Whether you&apos;re a CEO driving transformation, a CFO
+                preparing for the C-suite, or a board member expanding your
+                influence, this intensive coaching engagement delivers the
+                insights, strategies, and support you need to excel.
               </p>
 
               <div className="grid sm:grid-cols-2 gap-6 mt-8">
                 <div className="flex items-start gap-3">
                   <div className="flex-shrink-0 w-12 h-12 bg-royal-100 rounded-xl flex items-center justify-center">
-                    <Users className="h-6 w-6 text-royal-600" />
+                    <Target className="h-6 w-6 text-royal-600" />
                   </div>
                   <div>
                     <div className="font-semibold text-navy-900 mb-1">
-                      For Emerging Leaders
+                      C-Suite Executives
                     </div>
                     <div className="text-sm text-navy-600">
-                      Building foundational skills
+                      CEO, CFO, COO, CTO
                     </div>
                   </div>
                 </div>
@@ -165,10 +138,10 @@ export default function LeadershipCoachingPage() {
                   </div>
                   <div>
                     <div className="font-semibold text-navy-900 mb-1">
-                      For Established Leaders
+                      Senior Leaders
                     </div>
                     <div className="text-sm text-navy-600">
-                      Elevating to next level
+                      SVP, VP, Directors
                     </div>
                   </div>
                 </div>
@@ -178,8 +151,8 @@ export default function LeadershipCoachingPage() {
             <div className="relative">
               <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800"
-                  alt="Leadership Coaching Session"
+                  src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800"
+                  alt="Executive Coaching"
                   width={800}
                   height={600}
                   className="w-full h-full object-cover"
@@ -197,10 +170,10 @@ export default function LeadershipCoachingPage() {
         <div className="section-container">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-4xl font-display font-bold text-navy-900 mb-6">
-              How Leadership Coaching Works
+              The Executive Coaching Process
             </h2>
             <p className="text-xl text-navy-600">
-              A proven, systematic approach to leadership development
+              A rigorous, confidential approach designed for senior leaders
             </p>
           </div>
 
@@ -240,7 +213,7 @@ export default function LeadershipCoachingPage() {
         <div className="section-container">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-display font-bold text-navy-900 mb-12 text-center">
-              What You&apos;ll Achieve
+              Executive Outcomes
             </h2>
 
             <div className="grid md:grid-cols-2 gap-6">
@@ -257,48 +230,27 @@ export default function LeadershipCoachingPage() {
             <div className="mt-16 card bg-gradient-to-br from-royal-50 to-navy-50 border-2 border-royal-100">
               <div className="flex items-start gap-6">
                 <div className="flex-shrink-0 w-16 h-16 bg-gold-500 rounded-2xl flex items-center justify-center">
-                  <Target className="h-8 w-8 text-white" />
+                  <Award className="h-8 w-8 text-white" />
                 </div>
                 <div>
                   <h3 className="text-2xl font-display font-bold text-navy-900 mb-3">
-                    Investment in Your Future
+                    Confidential & Customized
                   </h3>
                   <p className="text-navy-700 leading-relaxed mb-4">
-                    Leadership coaching is an investment in yourself and your
-                    organization. Most clients see measurable improvements in
-                    their effectiveness within the first 90 days.
+                    All executive coaching engagements are completely
+                    confidential and tailored to your unique situation,
+                    challenges, and goals. Pricing is customized based on scope,
+                    duration, and specific needs.
                   </p>
                   <Link
                     href="/contact"
                     className="inline-flex items-center text-royal-600 font-semibold hover:text-royal-700 group"
                   >
-                    Discuss Your Custom Program
+                    Discuss Your Executive Coaching Needs
                     <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                   </Link>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ Section */}
-      <section className="py-24 bg-navy-50">
-        <div className="section-container">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-4xl font-display font-bold text-navy-900 mb-12 text-center">
-              Frequently Asked Questions
-            </h2>
-
-            <div className="space-y-6">
-              {faqs.map((faq, index) => (
-                <div key={index} className="card">
-                  <h3 className="text-xl font-display font-bold text-navy-900 mb-3">
-                    {faq.question}
-                  </h3>
-                  <p className="text-navy-700 leading-relaxed">{faq.answer}</p>
-                </div>
-              ))}
             </div>
           </div>
         </div>
@@ -309,22 +261,22 @@ export default function LeadershipCoachingPage() {
         <div className="section-container">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6">
-              Ready to Elevate Your Leadership?
+              Ready to Elevate Your Executive Leadership?
             </h2>
             <p className="text-xl text-navy-100 mb-12 leading-relaxed">
-              Schedule a complimentary 30-minute strategy call to discuss your
-              goals and explore how leadership coaching can accelerate your
-              journey.
+              Schedule a confidential consultation to discuss how executive
+              coaching can help you navigate your most critical challenges and
+              opportunities.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <Link href="/contact" className="btn-gold text-lg px-10 py-5">
-                Book Your Free Strategy Call
+                Schedule Confidential Consultation
               </Link>
               <Link
-                href="/about"
+                href="/results"
                 className="inline-flex items-center justify-center px-10 py-5 text-lg font-semibold text-white border-2 border-white/30 rounded-lg hover:bg-white/10 hover:border-white/50 transition-all duration-300"
               >
-                Learn More About John
+                View Executive Success Stories
               </Link>
             </div>
           </div>

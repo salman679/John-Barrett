@@ -47,7 +47,7 @@ export default function ContactPage() {
         <div className="section-container relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-display font-bold text-white mb-6">
-              Let's Connect
+              Let&apos;s Connect
             </h1>
             <p className="text-xl text-navy-100 leading-relaxed">
               Ready to accelerate your leadership journey? Schedule a
@@ -68,8 +68,8 @@ export default function ContactPage() {
                   Get in Touch
                 </h2>
                 <p className="text-navy-600 leading-relaxed mb-8">
-                  I'm here to help you transform your leadership. Choose the
-                  best way to connect.
+                  I&apos;m here to help you transform your leadership. Choose
+                  the best way to connect.
                 </p>
               </div>
 

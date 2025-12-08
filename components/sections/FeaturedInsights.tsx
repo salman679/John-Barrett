@@ -1,11 +1,12 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, Clock } from "lucide-react";
 
 const insights = [
   {
     title: "5 Critical Leadership Skills for 2024",
     excerpt:
-      "Discover the essential capabilities every modern leader needs to thrive in today's rapidly changing business landscape.",
+      "Discover the essential capabilities every modern leader needs to thrive in today&apos;s rapidly changing business landscape.",
     category: "Leadership",
     readTime: "5 min read",
     image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800",
@@ -66,9 +67,11 @@ export default function FeaturedInsights() {
               }}
             >
               <div className="relative h-48 overflow-hidden">
-                <img
+                <Image
                   src={insight.image}
                   alt={insight.title}
+                  width={800}
+                  height={400}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute top-4 left-4">

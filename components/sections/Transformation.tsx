@@ -44,7 +44,8 @@ export default function Transformation() {
             </h2>
             <p className="text-xl text-navy-600 leading-relaxed mb-12">
               A proven, systematic approach that has transformed hundreds of
-              leaders across industries. Here's how we'll work together:
+              leaders across industries. Here&apos;s how we&apos;ll work
+              together:
             </p>
 
             <div className="space-y-8">
@@ -78,7 +79,7 @@ export default function Transformation() {
           <div className="lg:pl-8">
             <div className="card bg-gradient-to-br from-white to-navy-50 border-2 border-royal-100">
               <h3 className="text-2xl font-display font-bold text-navy-900 mb-8">
-                What You'll Achieve
+                What You&apos;ll Achieve
               </h3>
               <div className="space-y-4">
                 {[

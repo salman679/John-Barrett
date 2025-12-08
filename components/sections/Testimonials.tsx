@@ -1,4 +1,5 @@
 import { Star, Quote } from "lucide-react";
+import Image from "next/image";
 
 const testimonials = [
   {
@@ -61,8 +62,8 @@ export default function Testimonials() {
             <span className="gradient-text"> Worldwide</span>
           </h2>
           <p className="text-xl text-navy-600 leading-relaxed">
-            Don't just take our word for it. Here's what leaders say about their
-            transformation journey.
+            Don&apos;t just take our word for it. Here&apos;s what leaders say
+            about their transformation journey.
           </p>
         </div>
 
@@ -91,14 +92,16 @@ export default function Testimonials() {
 
               {/* Content */}
               <p className="text-navy-700 leading-relaxed mb-6 italic">
-                "{testimonial.content}"
+                &quot;{testimonial.content}&quot;
               </p>
 
               {/* Author */}
               <div className="flex items-center gap-4 pt-6 border-t border-navy-100">
-                <img
+                <Image
                   src={testimonial.image}
                   alt={testimonial.name}
+                  width={48}
+                  height={48}
                   className="w-12 h-12 rounded-full object-cover"
                 />
                 <div>
