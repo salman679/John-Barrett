@@ -29,6 +29,20 @@ export const metadata: Metadata = {
     description: "World-class leadership coaching and executive development",
     type: "website",
     locale: "en_US",
+    images: [
+      {
+        url: "/image.png",
+        width: 1200,
+        height: 630,
+        alt: "John Barrett Leadership",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "John Barrett Leadership | Transform Your Leadership Journey",
+    description: "World-class leadership coaching and executive development",
+    images: ["/image.png"],
   },
 };
 
